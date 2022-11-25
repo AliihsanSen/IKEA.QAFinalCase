@@ -15,7 +15,7 @@ public class EBebekPage {
     @FindBy(xpath = "//input[@id='txtSearchBox']")
     public WebElement searchBox;
 
-    @FindBy(xpath = "(//div[@data-test-id='product-card-image-container'])[2]")
+    @FindBy(xpath = "(//*[@class='product-item-anchor ng-star-inserted'])[22]")
     public WebElement firstProduct;
 
     @FindBy(xpath = "(//header[@class='title-wrapper'])[2]")

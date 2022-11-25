@@ -1,0 +1,4 @@
+2022-11-25 16:00:19,848 INFO t.KasikMamasi [main] Kullanici, https://www.e-bebek.com/ sitesini ziyaret eder
+2022-11-25 16:00:23,702 INFO t.KasikMamasi [main] Kullanici, testin herhangi bir aşamasında lazim olabileceginden bulundugu sayfanin 'windowhandle' degerini alir
+2022-11-25 16:00:24,218 INFO t.KasikMamasi [main] Kullanici, test case'de verilen 'kasik mamasini' urunu aratir ve 'enter' tusuna basar
+2022-11-25 16:00:24,898 INFO t.KasikMamasi [main] Kullanici, arama sonucunda ekrana gelen urun listesinden / tek bir sonuc da donmus olabilir urun secer

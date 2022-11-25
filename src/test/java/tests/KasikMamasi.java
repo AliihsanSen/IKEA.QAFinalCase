@@ -38,12 +38,8 @@ public class KasikMamasi {
         EBebekPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch1"), Keys.ENTER);
         Thread.sleep(500);
 
-        logger.info("Kullanici, açilan sayfayi daha iyi gorebilmek icin sayfayi biraz asagi kaydirir");
-        actions.sendKeys(Keys.ARROW_DOWN).perform();
-        Thread.sleep(500);
-
-        logger.info("Kullanici, arama sonucunda ekrana gelen urun listesinden veya tek bir sonuc da donmus olabilir) urun secer");
-        EBebekPage.secondProduct.click();
+        logger.info("Kullanici, arama sonucunda ekrana gelen urun listesinden / tek bir sonuc da donmus olabilir urun secer");
+        EBebekPage.firstProduct.click();
 
         logger.info("Kullanici, açilan sayfadaki urunun yeni bir sekmede acildigini gorur, bu nedenle yeni sekmede islem yapabilmek icin 'windowhandles' degerlerini alip bir set'e atar");
         Set<String> windowHandleseti = Driver.getDriver().getWindowHandles();
