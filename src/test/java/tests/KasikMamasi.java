@@ -34,7 +34,7 @@ public class KasikMamasi {
         String firstTabWindowHandleHashCode = Driver.getDriver().getWindowHandle();
         Thread.sleep(500);
 
-        logger.info("Kullanici, herhangi bir kısıtlama olmadan istedigi urunu aratir ve 'enter' tusuna basar");
+        logger.info("Kullanici, test case'de verilen 'kasik mamasini' urunu aratir ve 'enter' tusuna basar");
         EBebekPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch1"), Keys.ENTER);
         Thread.sleep(500);
 
@@ -42,7 +42,7 @@ public class KasikMamasi {
         actions.sendKeys(Keys.ARROW_DOWN).perform();
         Thread.sleep(500);
 
-        logger.info("Kullanici, arama sonucunda ekrana gele urun listesinden (veya tek bir sonuc da donmus olabilir) urun secer");
+        logger.info("Kullanici, arama sonucunda ekrana gelen urun listesinden veya tek bir sonuc da donmus olabilir) urun secer");
         EBebekPage.secondProduct.click();
 
         logger.info("Kullanici, açilan sayfadaki urunun yeni bir sekmede acildigini gorur, bu nedenle yeni sekmede islem yapabilmek icin 'windowhandles' degerlerini alip bir set'e atar");

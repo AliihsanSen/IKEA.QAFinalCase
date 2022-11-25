@@ -12,8 +12,6 @@ public class EBebekPage {
     }
 
 
-    @FindBy(xpath = "//*[text()='Hesabım']")
-    public WebElement successLogInText;
     @FindBy(xpath = "//input[@id='txtSearchBox']")
     public WebElement searchBox;
 
