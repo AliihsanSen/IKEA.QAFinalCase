@@ -14,7 +14,7 @@ public class EBebekPage {
 
     @FindBy(xpath = "//*[text()='Hesabım']")
     public WebElement successLogInText;
-    @FindBy(xpath = "//input[@class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']")
+    @FindBy(xpath = "//input[@id='txtSearchBox']")
     public WebElement searchBox;
 
     @FindBy(xpath = "(//div[@data-test-id='product-card-image-container'])[2]")
