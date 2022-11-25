@@ -5,8 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class HepsiBuradaPage {
-    public HepsiBuradaPage() {
+public class EBebekPage {
+    public EBebekPage() {
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
