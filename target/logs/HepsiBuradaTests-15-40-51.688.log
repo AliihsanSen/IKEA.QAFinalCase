@@ -1,0 +1,4 @@
+2022-11-25 15:40:51,688 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi ilk urunun Tuna Parfumeri saticisindan oldugunu dogrular
+2022-11-25 15:40:51,792 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
+2022-11-25 15:40:51,837 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi diger urunun L'Oréal saticisindan oldugunu dogrular
+2022-11-25 15:40:51,900 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun eklemek istedigi dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar

@@ -1,0 +1,4 @@
+2022-11-03 18:00:39,509 INFO t.HepsiBuradaTest02 [main] Kullanici, daha onceden almis olduğu Set araciligi ile buldugu yeni sekmenin 'windowhandle' degeri kullanarak driveri yeni sekmeye gecirir
+2022-11-03 18:00:39,515 INFO t.HepsiBuradaTest02 [main] Kullanici, yeni sekmede acilan urunun basligini testin daha sonraki asamalarinda kullanacagi icin String bir variable'a atar
+2022-11-03 18:00:42,199 INFO t.HepsiBuradaTest02 [main] Kullanici, açilan sayfadaki urunu ilk saticidan sepete ekler
+2022-11-03 18:00:42,426 INFO t.HepsiBuradaTest02 [main] Kullanici, urun eklendikten sonra sayfada cikan bilgilendirme pop-up'ini kapatir

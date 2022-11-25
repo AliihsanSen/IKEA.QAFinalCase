@@ -1,0 +1,4 @@
+2022-11-25 15:40:33,005 INFO t.HepsiBuradaTest02 [main] Kullanici, https://www.hepsiburada.com/ sitesini ziyaret eder
+2022-11-25 15:40:36,342 INFO t.HepsiBuradaTest02 [main] Kullanici, sayfada çıkan cookie'leri kabul eder
+2022-11-25 15:40:36,556 INFO t.HepsiBuradaTest02 [main] Kullanici, testin herhangi bir aşamasında lazim olabileceginden bulundugu sayfanin 'windowhandle' degerini alir
+2022-11-25 15:40:37,061 INFO t.HepsiBuradaTest02 [main] Kullanici, herhangi bir kısıtlama olmadan istedigi urunu aratir ve 'enter' tusuna basar

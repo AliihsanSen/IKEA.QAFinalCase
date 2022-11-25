@@ -1,0 +1,4 @@
+2022-11-03 18:00:45,649 INFO t.HepsiBuradaTest02 [main] Kullanici, ikinci saticidan ayni urunu eklemek icin sayfayi asagiya kaydirir
+2022-11-03 18:00:46,269 INFO t.HepsiBuradaTest02 [main] Kullanici, ayni urunu sitedeki mevcut ikinci saticidan da sepete ekler
+2022-11-03 18:00:46,377 INFO t.HepsiBuradaTest02 [main] Kullanici, ekledigi urunlerin dogrulugunu test edebilmek icin sepetim sayfasina gider
+2022-11-03 18:00:50,138 INFO t.HepsiBuradaTest02 [main] Kullanici, açılan sayfanin 'Sepetim' sayfasi oldugunu dogrular

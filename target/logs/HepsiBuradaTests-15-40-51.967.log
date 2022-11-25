@@ -1,0 +1,2 @@
+2022-11-25 15:40:51,966 INFO t.HepsiBuradaTest02 [main] Kullanici, testin basında sepete ekledigi urunlerin ekran goruntuleri sayesinde manuel olarak da dogrular
+2022-11-25 15:40:52,096 WARN t.HepsiBuradaTest02 [main] Kullanici, testin başından sonuna kadar acilan tum sayfalari kapatarak test islemine son verir

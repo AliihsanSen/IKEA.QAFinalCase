@@ -1,0 +1,4 @@
+2022-11-03 18:00:50,647 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi ilk urunun L'Oréal saticisindan oldugunu dogrular
+2022-11-03 18:00:50,813 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
+2022-11-03 18:00:50,863 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi diger urunun Hepsiburada saticisindan oldugunu dogrular
+2022-11-03 18:00:50,964 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun eklemek istedigi dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
