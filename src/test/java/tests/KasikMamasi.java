@@ -27,18 +27,15 @@ public class KasikMamasi {
     @Test
     public void test02() throws InterruptedException, IOException {
 
-        logger.info("Kullanici, https://www.hepsiburada.com/ sitesini ziyaret eder");
-        Driver.getDriver().get(ConfigReader.getProperty("hepsiburadaUrl"));
-
-        logger.info("Kullanici, sayfada çıkan cookie'leri kabul eder");
-        EBebekPage.acceptCookiesButton.click();
+        logger.info("Kullanici, https://www.e-bebek.com/ sitesini ziyaret eder");
+        Driver.getDriver().get(ConfigReader.getProperty("E-BebekUrl"));
 
         logger.info("Kullanici, testin herhangi bir aşamasında lazim olabileceginden bulundugu sayfanin 'windowhandle' degerini alir");
         String firstTabWindowHandleHashCode = Driver.getDriver().getWindowHandle();
         Thread.sleep(500);
 
         logger.info("Kullanici, herhangi bir kısıtlama olmadan istedigi urunu aratir ve 'enter' tusuna basar");
-        EBebekPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch2"), Keys.ENTER);
+        EBebekPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch1"), Keys.ENTER);
         Thread.sleep(500);
 
         logger.info("Kullanici, açilan sayfayi daha iyi gorebilmek icin sayfayi biraz asagi kaydirir");

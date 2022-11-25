@@ -11,14 +11,15 @@ public class EBebekPage {
 
     }
 
-    @FindBy(xpath = "//button[@id='onetrust-accept-btn-handler']")
-    public WebElement acceptCookiesButton;
+
     @FindBy(xpath = "//*[text()='Hesabım']")
     public WebElement successLogInText;
     @FindBy(xpath = "//input[@class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']")
     public WebElement searchBox;
+
     @FindBy(xpath = "(//div[@data-test-id='product-card-image-container'])[2]")
     public WebElement firstProduct;
+
     @FindBy(xpath = "(//header[@class='title-wrapper'])[2]")
     public WebElement firstProductName;
     @FindBy(xpath = "//h1[@id='product-name']")
