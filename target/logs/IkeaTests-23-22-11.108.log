@@ -1,0 +1,3 @@
+2022-12-18 23:22:11,104 INFO t.i.TestCase [main] Kullanici, 'https://ikea.com.tr' sayfasina gider
+2022-12-18 23:22:18,814 INFO t.i.TestCase [main] Kullanici, arama kutucuguna aranacak kelimeyi yazar ve aratir
+2022-12-18 23:22:18,917 INFO t.i.TestCase [main] Kullanici, donen sonuclarda kac tane aranan urun oldugunu dogrular

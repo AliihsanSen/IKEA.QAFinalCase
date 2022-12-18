@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Ikea" />
         <module name="E-BEBEK.QAFinalCase" />
-        <module name="A101.FinalCase" />
+        <module name="IKEA.QAFinalCase" />
       </profile>
     </annotationProcessing>
   </component>

@@ -16,19 +16,6 @@ public class Driver {
     public static WebDriver getDriver() {
         if (driver == null) {
             switch (ConfigReader.getProperty("browser")) {
-                case "chrome":
-                    ChromeOptions options=new ChromeOptions();
-                    options.addArguments("--incognito");
-                    options.addArguments("--ignore-certificate-errors");
-                    options.addArguments("--allow-insecure-localhost");
-                    options.addArguments("--acceptInsecureCerts");
-                   options.addArguments("--disable-blink-features=AutomationControlled");
-                    options.addArguments("--disable-blink-features");
-                    options.addArguments("--start-maximized");
-                    options.addArguments("--disable-extensions");
-                    WebDriverManager.chromedriver().setup();
-                    driver=new ChromeDriver(options);
-                    break;
                 case "edge":
                     WebDriverManager.edgedriver().setup();
                     driver=new EdgeDriver();

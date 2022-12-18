@@ -5,7 +5,7 @@
     </Properties>
     <Appenders>
         <RollingFile name="file"
-                     filePattern="${basePath}/HepsiBuradaTests-%d{HH-mm-ss.SSS}.log">
+                     filePattern="${basePath}/IkeaTests-%d{HH-mm-ss.SSS}.log">
             <PatternLayout>
                 <pattern>%d %p %c{1.} [%t] %m%n</pattern>
             </PatternLayout>
@@ -16,7 +16,7 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="tests.HepsiBuradaTestLogin01" level="trace" additivity="false">
+        <Logger name="tests.ikeaTestCase.TestCase" level="trace" additivity="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="file"/>
         </Logger>

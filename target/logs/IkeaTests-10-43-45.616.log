@@ -1,0 +1,5 @@
+2022-12-16 10:43:45,615 INFO t.i.TestCase [main] Kullanici, islem yapabilmek icin driver'i Set araciligi ile yeni acilan sekmeye tasir
+2022-12-16 10:43:45,629 INFO t.i.TestCase [main] Kullanici, driver'i Set araciligi ile buldugu yeni acilan tab'a gecirir
+2022-12-16 10:43:45,635 INFO t.i.TestCase [main] Kullanici, arattigi urunu sepete ekler
+2022-12-16 10:43:46,805 INFO t.i.TestCase [main] Kullanici, sepete gider
+2022-12-16 10:43:46,849 INFO t.i.TestCase [main] Kullanici, adres ekleme butonuna tiklar
