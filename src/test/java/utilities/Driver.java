@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.time.Duration;
 
@@ -18,24 +19,33 @@ public class Driver {
             switch (ConfigReader.getProperty("browser")) {
                 case "edge":
                     WebDriverManager.edgedriver().setup();
-                    driver=new EdgeDriver();
+                    driver = new EdgeDriver();
+                    break;
+                case "chrome":
+                    WebDriverManager.chromedriver().setup();
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--remote-allow-origins=*");
+                    DesiredCapabilities cap = new DesiredCapabilities();
+                    cap.setCapability(ChromeOptions.CAPABILITY, options);
+                    options.merge(cap);
+                    driver = new ChromeDriver(options);
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
-                    driver=new FirefoxDriver();
+                    driver = new FirefoxDriver();
                     break;
                 case "opera":
                     WebDriverManager.operadriver().setup();
-                    driver=new OperaDriver();
+                    driver = new OperaDriver();
                     break;
 
                 case "headless-chrome":
                     WebDriverManager.chromedriver().setup();
-                    driver=new ChromeDriver(new ChromeOptions().setHeadless(true));
+                    driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
                     break;
                 default:
                     WebDriverManager.chromedriver().setup();
-                    driver=new ChromeDriver();
+                    driver = new ChromeDriver();
 
             }
 

@@ -7,10 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Ikea" />
+        <module name="E-BEBEK.QAFinalCase" />
+        <module name="IKEA.QAFinalCase" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="IKEA.QAFinalCase" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

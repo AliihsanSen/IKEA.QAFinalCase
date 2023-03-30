@@ -1,0 +1,5 @@
+2022-12-15 23:35:56,247 INFO t.i.TestCase [main] Kullanici, 'https://ikea.com.tr' sayfasina gider
+2022-12-15 23:36:06,816 INFO t.i.TestCase [main] Kullanici, arama kutucuguna aranacak kelimeyi yazar ve aratir
+2022-12-15 23:36:07,873 INFO t.i.TestCase [main] Kullanici, donen sonuclarda kac tane aranan urun oldugunu dogrular
+2022-12-15 23:36:07,945 INFO t.i.TestCase [main] Kullanici, ileride lazim olabilecegi icin bulundugu sayfanin window handle degerini bir variable'a atar
+2022-12-15 23:36:07,961 INFO t.i.TestCase [main] Kullanici, donen sonuclardan ikincisine tiklar

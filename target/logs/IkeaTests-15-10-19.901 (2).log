@@ -1,0 +1,6 @@
+2022-12-16 15:10:19,900 INFO t.i.TestCase [main] Kullanici, adres bilgilerini girer
+2022-12-16 15:10:20,939 INFO t.i.TestCase [main] Kullanici, adres bilgilerini kaydeder
+2022-12-16 15:10:22,669 INFO t.i.TestCase [main] Kullanici, adrese teslim butonuna tiklar
+2022-12-16 15:10:22,777 INFO t.i.TestCase [main] Kullanici, odeme sayfasina gider
+2022-12-16 15:10:24,417 INFO t.i.TestCase [main] Kullanici, odeme sayfasina kadar geldigini dogrular
+2022-12-16 15:10:24,525 INFO t.i.TestCase [main] Kullanici browser'i kapatir
