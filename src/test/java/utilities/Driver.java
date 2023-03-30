@@ -17,10 +17,6 @@ public class Driver {
     public static WebDriver getDriver() {
         if (driver == null) {
             switch (ConfigReader.getProperty("browser")) {
-                case "edge":
-                    WebDriverManager.edgedriver().setup();
-                    driver = new EdgeDriver();
-                    break;
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions options = new ChromeOptions();
@@ -29,6 +25,10 @@ public class Driver {
                     cap.setCapability(ChromeOptions.CAPABILITY, options);
                     options.merge(cap);
                     driver = new ChromeDriver(options);
+                    break;
+                case "edge":
+                    WebDriverManager.edgedriver().setup();
+                    driver = new EdgeDriver();
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
